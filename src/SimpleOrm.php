@@ -1,7 +1,7 @@
 <?php
 
-require 'SyntaxPainter.php';
-require 'FormatOutput.php';
+require __DIR__ . '/class/SyntaxPainter.php';
+require __DIR__ . '/class/FormatOutput.php';
 
 class SimpleOrm
 {
@@ -43,19 +43,6 @@ class SimpleOrm
         }else{
             $this->showError = true;
         }
-    }
-
-    /**
-     * Display error msg
-     */
-    public function __destruct() {
-
-        $this->history[] = [$this->query,$this->db->error];
-        if ( $this->showError === true ) {
-            FormatOutput::format(print_r($this->db->error));
-        }
-
-        return false;
     }
 
     /**
