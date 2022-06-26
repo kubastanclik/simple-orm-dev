@@ -1,5 +1,7 @@
 <?php
 
+namespace KubaStanclik\SimpleOrm\class\FormatOutput;
+
 /**
  * Hellper class to color raw output.
  */

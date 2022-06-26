@@ -1,7 +1,9 @@
 <?php
 
-require __DIR__ . '/class/SyntaxPainter.php';
-require __DIR__ . '/class/FormatOutput.php';
+namespace KubaStanclik\SimpleOrm;
+
+use KubaStanclik\SimpleOrm\class\SyntaxPainter;
+use KubaStanclik\SimpleOrm\class\FormatOutput;
 
 class SimpleOrm
 {

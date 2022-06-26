@@ -1,5 +1,7 @@
 <?php
 
+namespace KubaStanclik\SimpleOrm\class\SyntaxPainter;
+
 /**
  * Hellper class to color raw sql queries.
  */
