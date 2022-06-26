@@ -2,7 +2,7 @@
   "name": "simple_orm/src",
   "type": "libary",
   "description": "Simple ORM to manage mysql",
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "license": "MIT",
   "authors": [
     {
