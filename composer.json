@@ -1,0 +1,19 @@
+{
+  "name": "simple_orm/src",
+  "type": "libary",
+  "description": "Simple ORM to manage mysql",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Kuba Stanclik",
+      "email": "kuba.stanclik@outlook.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "KubStanclik\\SimpleOrm\\": "/src"
+    }
+  }
+}
